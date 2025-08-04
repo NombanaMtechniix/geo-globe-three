@@ -2,6 +2,12 @@
   "name": "geo-globe",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "description": "An interactive 3D globe visualization built with Next.js, React Three Fiber, and Three.js.",
+  "author": {
+    "name": "Code Parth",
+    "url": "https://github.com/Code-Parth"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
