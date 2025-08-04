@@ -81,7 +81,7 @@ function Globe() {
     <group ref={groupRef}>
       <mesh>
         <sphereGeometry args={[2, 64, 32]} />
-        <meshBasicMaterial color="#0B0B0D" transparent opacity={0.9} />
+        <meshBasicMaterial color="black" transparent opacity={0.85} />
       </mesh>
 
       <mesh>
@@ -90,7 +90,7 @@ function Globe() {
           color="#ffffff"
           wireframe
           transparent
-          opacity={0.1}
+          opacity={0.07}
         />
       </mesh>
 
