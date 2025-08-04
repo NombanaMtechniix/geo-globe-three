@@ -45,7 +45,7 @@ export default function Wrapper({ children }: { children: React.ReactNode }) {
             />
           ))}
         </div>
-        <div className="relative z-20">{children}</div>
+        <div className="relative z-20 h-full w-full">{children}</div>
       </div>
     </div>
   );

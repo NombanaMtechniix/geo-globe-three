@@ -10,11 +10,15 @@
     "lint:fix": "next lint && prettier --write ."
   },
   "dependencies": {
+    "@react-three/drei": "^10.6.1",
+    "@react-three/fiber": "^9.3.0",
     "clsx": "^2.1.1",
+    "maath": "^0.10.8",
     "next": "15.4.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "tailwind-merge": "^3.3.1"
+    "tailwind-merge": "^3.3.1",
+    "three": "^0.179.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
