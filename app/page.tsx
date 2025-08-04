@@ -64,7 +64,7 @@ function Globe() {
                   new THREE.LineBasicMaterial({
                     color: "#ffffff",
                     transparent: true,
-                    opacity: 0.3,
+                    opacity: 0.7,
                   }),
                 )
               }
