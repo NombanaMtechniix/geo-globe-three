@@ -102,7 +102,7 @@ function Globe() {
 export default function Home() {
   return (
     <Canvas
-      camera={{ position: [0, 0, 5], fov: 45 }}
+      camera={{ position: [0, 0, 7], fov: 45 }}
       style={{ width: "100%", height: "100%", background: "transparent" }}>
       <ambientLight intensity={0.5} />
       <pointLight position={[10, 10, 10]} />
@@ -113,8 +113,8 @@ export default function Home() {
         enableRotate={true}
         zoomSpeed={0.6}
         rotateSpeed={0.5}
-        minDistance={3}
-        maxDistance={10}
+        minDistance={4}
+        maxDistance={12}
       />
     </Canvas>
   );
